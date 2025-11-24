@@ -1,1 +1,19 @@
-/* Add CSS Styling */
+.odd {
+    background-color: pink;
+    font-family: Verdana, sans-serif,;
+}
+
+#idTwo {
+    color: blue;
+    font-size: 36px;
+}
+
+.coolerClass {
+    font-size: 24px;
+}
+
+#anotherId {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
