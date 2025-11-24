@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+
+
+.buttonOne, .buttonTwo {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonOne {
+    background-color: black;
+    color: white;
+}
+
+.buttonTwo {
+    background-color: yellow;
+}
