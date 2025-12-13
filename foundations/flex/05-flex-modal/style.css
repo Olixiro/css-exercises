@@ -15,13 +15,6 @@ body {
   justify-content: center;
 }
 
-.modal {
-  background: white;
-  width: 480px;
-  border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-}
-
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -48,6 +41,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+
 }
 
 button {
@@ -66,4 +60,38 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+.card {
+  display: flex;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: white;
+  margin: 50px;
+  gap: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left {
+  display: flex;
+  width: 50px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.right-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle {
+  display: flex;
+}
+
+.header {
+  font-weight: 1000;
 }
